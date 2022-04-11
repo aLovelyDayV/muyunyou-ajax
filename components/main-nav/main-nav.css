@@ -1,0 +1,116 @@
+.main-nav {
+  height: 40px;
+  background-color: #20bd9a;
+  line-height: 40px;
+  font-size: 14px;
+}
+.main-nav .main-nav-list li {
+  float: left;
+  margin: 0 8px;
+}
+.main-nav .main-nav-list li a:hover {
+  color: green;
+}
+.main-nav .main-nav-list .free,
+.main-nav .main-nav-list .group,
+.main-nav .main-nav-list .play,
+.main-nav .main-nav-list .deep {
+  position: relative;
+}
+.main-nav .main-nav-list .free .free-con,
+.main-nav .main-nav-list .group .free-con,
+.main-nav .main-nav-list .play .free-con,
+.main-nav .main-nav-list .deep .free-con,
+.main-nav .main-nav-list .free .group-con,
+.main-nav .main-nav-list .group .group-con,
+.main-nav .main-nav-list .play .group-con,
+.main-nav .main-nav-list .deep .group-con,
+.main-nav .main-nav-list .free .play-con,
+.main-nav .main-nav-list .group .play-con,
+.main-nav .main-nav-list .play .play-con,
+.main-nav .main-nav-list .deep .play-con,
+.main-nav .main-nav-list .free .deep-con,
+.main-nav .main-nav-list .group .deep-con,
+.main-nav .main-nav-list .play .deep-con,
+.main-nav .main-nav-list .deep .deep-con {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: -15px;
+  width: 100px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.main-nav .main-nav-list .free .free-con .trangle,
+.main-nav .main-nav-list .group .free-con .trangle,
+.main-nav .main-nav-list .play .free-con .trangle,
+.main-nav .main-nav-list .deep .free-con .trangle,
+.main-nav .main-nav-list .free .group-con .trangle,
+.main-nav .main-nav-list .group .group-con .trangle,
+.main-nav .main-nav-list .play .group-con .trangle,
+.main-nav .main-nav-list .deep .group-con .trangle,
+.main-nav .main-nav-list .free .play-con .trangle,
+.main-nav .main-nav-list .group .play-con .trangle,
+.main-nav .main-nav-list .play .play-con .trangle,
+.main-nav .main-nav-list .deep .play-con .trangle,
+.main-nav .main-nav-list .free .deep-con .trangle,
+.main-nav .main-nav-list .group .deep-con .trangle,
+.main-nav .main-nav-list .play .deep-con .trangle,
+.main-nav .main-nav-list .deep .deep-con .trangle {
+  position: absolute;
+  top: -18px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+.main-nav .main-nav-list .free .free-con .option a,
+.main-nav .main-nav-list .group .free-con .option a,
+.main-nav .main-nav-list .play .free-con .option a,
+.main-nav .main-nav-list .deep .free-con .option a,
+.main-nav .main-nav-list .free .group-con .option a,
+.main-nav .main-nav-list .group .group-con .option a,
+.main-nav .main-nav-list .play .group-con .option a,
+.main-nav .main-nav-list .deep .group-con .option a,
+.main-nav .main-nav-list .free .play-con .option a,
+.main-nav .main-nav-list .group .play-con .option a,
+.main-nav .main-nav-list .play .play-con .option a,
+.main-nav .main-nav-list .deep .play-con .option a,
+.main-nav .main-nav-list .free .deep-con .option a,
+.main-nav .main-nav-list .group .deep-con .option a,
+.main-nav .main-nav-list .play .deep-con .option a,
+.main-nav .main-nav-list .deep .deep-con .option a {
+  display: block;
+  width: 100px;
+  height: 25px;
+  padding-left: 16px;
+  background-color: #fff;
+  line-height: 25px;
+  color: #424242;
+  font-size: 12px;
+}
+.main-nav .main-nav-list .free .free-con .option a:hover,
+.main-nav .main-nav-list .group .free-con .option a:hover,
+.main-nav .main-nav-list .play .free-con .option a:hover,
+.main-nav .main-nav-list .deep .free-con .option a:hover,
+.main-nav .main-nav-list .free .group-con .option a:hover,
+.main-nav .main-nav-list .group .group-con .option a:hover,
+.main-nav .main-nav-list .play .group-con .option a:hover,
+.main-nav .main-nav-list .deep .group-con .option a:hover,
+.main-nav .main-nav-list .free .play-con .option a:hover,
+.main-nav .main-nav-list .group .play-con .option a:hover,
+.main-nav .main-nav-list .play .play-con .option a:hover,
+.main-nav .main-nav-list .deep .play-con .option a:hover,
+.main-nav .main-nav-list .free .deep-con .option a:hover,
+.main-nav .main-nav-list .group .deep-con .option a:hover,
+.main-nav .main-nav-list .play .deep-con .option a:hover,
+.main-nav .main-nav-list .deep .deep-con .option a:hover {
+  background-color: #dcfaf4;
+}
+.main-nav .main-nav-list .free .group-con,
+.main-nav .main-nav-list .group .group-con,
+.main-nav .main-nav-list .play .group-con,
+.main-nav .main-nav-list .deep .group-con {
+  left: -28px;
+}

@@ -1,0 +1,62 @@
+<ul class="main-nav-list fl">
+    <li class="free">
+        <a href="javascript:;" class="arrow-down">机酒自由行</a>
+        <div class="free-con">
+            <div class="trangle"></div>
+            <div class="option">
+                <a href="#">机酒自由行</a>
+                <a href="#">机酒自由行</a>
+                <a href="#">机酒自由行</a>
+                <a href="#">机酒自由行</a>
+                <a href="#">机酒自由行</a>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">优惠机票</a></li>
+    <li class="group">
+        <a href="javascript:;" class="arrow-down">跟团游</a>
+        <div class="group-con">
+            <div class="trangle"></div>
+            <div class="option">
+                <a href="#">跟团游</a>
+                <a href="#">跟团游</a>
+                <a href="#">跟团游</a>
+                <a href="#">跟团游</a>
+                <a href="#">跟团游</a>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">酒店</a></li>
+    <li class="play">
+        <a href="javascript:;" class="arrow-down">当地玩乐</a>
+        <div class="play-con">
+            <div class="trangle"></div>
+            <div class="option">
+                <a href="#">当地玩乐</a>
+                <a href="#">当地玩乐</a>
+                <a href="#">当地玩乐</a>
+                <a href="#">当地玩乐</a>
+                <a href="#">当地玩乐</a>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">签证</a></li>
+    <li><a href="#">游轮</a></li>
+    <li><a href="#">河轮</a></li>
+    <li><a href="#">保险</a></li>
+    <li><a href="#">出租自驾</a></li>
+    <li class="deep">
+        <a href="javascript:;" class="arrow-down">深度旅游</a>
+        <div class="deep-con">
+            <div class="trangle"></div>
+            <div class="option">
+                <a href="#">深度旅游</a>
+                <a href="#">深度旅游</a>
+                <a href="#">深度旅游</a>
+                <a href="#">深度旅游</a>
+                <a href="#">深度旅游</a>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">私人定制</a></li>
+</ul>

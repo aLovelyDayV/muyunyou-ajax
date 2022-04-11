@@ -1,0 +1,186 @@
+$sWidth: 264px;
+$height: 270px;
+$imgHeight: 184px;
+$bWidth: 560px;
+
+@mixin hd {
+  height: 120px;
+  line-height: 120px;
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+    span {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: 200;
+    }
+  }
+}
+
+@mixin tab-hd {
+  position: absolute;
+  top: 53px;
+  right: 0;
+  height: 22px;
+  line-height: 22px;
+  color: #424242;
+  li {
+    float: left;
+    margin: 0 7px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .active {
+    color: #20bd9a;
+    border-bottom: 2px solid #20bd9a;
+  }
+}
+@mixin tab-list {
+  display: none;
+  li {
+    @include grid;
+    &:hover {
+      @include grid-hover;
+    }
+    a {
+      @include grid-a;
+    }
+    &:nth-child(4) {
+      margin-left: 0;
+    }
+  }
+}
+@mixin grid {
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+}
+
+@mixin grid-hover {
+  transform: translate3d(0, -5px, 3px);
+  box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.3);
+  img {
+    transform: scale(1.1);
+  }
+  .arrow-right {
+    animation: jump 0.2s ease 0s infinite alternate;
+  }
+}
+
+@mixin grid-a() {
+  display: block;
+  width: $sWidth;
+  height: $height;
+  background-color: #fff;
+  color: #424242;
+  .pic {
+    width: $sWidth;
+    height: $imgHeight;
+    overflow: hidden;
+    img {
+      width: $sWidth;
+      height: $imgHeight;
+      transition: all 0.4s;
+    }
+  }
+  .text {
+    padding: 0 20px;
+    margin-top: 20px;
+    @include grid-text;
+  }
+}
+@mixin grid-text {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@mixin big-pic($width) {
+  width: $width;
+  height: $height;
+  overflow: hidden;
+  img {
+    width: $width;
+    height: $height;
+    transition: all 0.4s;
+  }
+}
+@mixin big-grid($padding) {
+  margin-left: 0;
+  a {
+    width: 560px;
+    .big-pic {
+      @include big-pic(560px);
+    }
+  }
+  .big-tag {
+    position: absolute;
+    top: 62px;
+    left: 227px;
+    width: 106px;
+    height: 106px;
+    padding: $padding;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+  }
+  .title {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    color: #fff;
+    font-size: 15px;
+  }
+}
+
+@mixin more($bg) {
+  position: relative;
+  a {
+    overflow: hidden;
+    background: $bg;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    .title {
+      margin-top: 40px;
+      p {
+        margin-bottom: 5px;
+      }
+    }
+    .arrow-right {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      margin-left: -30px;
+      font-size: 60px;
+      transition: all 0.4s;
+    }
+    .content {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+    }
+  }
+}
+@mixin loading($param) {
+  padding-top: $param;
+  padding-bottom: $param;
+}
+@keyframes jump {
+  from {
+    transform: translateY(4px);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}

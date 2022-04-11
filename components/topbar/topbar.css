@@ -1,0 +1,86 @@
+.topbar {
+  height: 32px;
+  background-color: #2a2a2a;
+  line-height: 32px;
+  font-weight: 200;
+}
+.topbar .shortcut-links li {
+  float: left;
+  margin: 0 8px;
+}
+.topbar .shortcut-links .community,
+.topbar .shortcut-links .store,
+.topbar .shortcut-links .hotel {
+  position: relative;
+}
+.topbar .shortcut-links .community .community-con,
+.topbar .shortcut-links .store .community-con,
+.topbar .shortcut-links .hotel .community-con,
+.topbar .shortcut-links .community .store-con,
+.topbar .shortcut-links .store .store-con,
+.topbar .shortcut-links .hotel .store-con,
+.topbar .shortcut-links .community .hotel-con,
+.topbar .shortcut-links .store .hotel-con,
+.topbar .shortcut-links .hotel .hotel-con {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: -40px;
+  width: 100px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.topbar .shortcut-links .community .community-con .trangle,
+.topbar .shortcut-links .store .community-con .trangle,
+.topbar .shortcut-links .hotel .community-con .trangle,
+.topbar .shortcut-links .community .store-con .trangle,
+.topbar .shortcut-links .store .store-con .trangle,
+.topbar .shortcut-links .hotel .store-con .trangle,
+.topbar .shortcut-links .community .hotel-con .trangle,
+.topbar .shortcut-links .store .hotel-con .trangle,
+.topbar .shortcut-links .hotel .hotel-con .trangle {
+  position: absolute;
+  top: -16px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+.topbar .shortcut-links .community .community-con .option a,
+.topbar .shortcut-links .store .community-con .option a,
+.topbar .shortcut-links .hotel .community-con .option a,
+.topbar .shortcut-links .community .store-con .option a,
+.topbar .shortcut-links .store .store-con .option a,
+.topbar .shortcut-links .hotel .store-con .option a,
+.topbar .shortcut-links .community .hotel-con .option a,
+.topbar .shortcut-links .store .hotel-con .option a,
+.topbar .shortcut-links .hotel .hotel-con .option a {
+  display: block;
+  width: 100px;
+  height: 25px;
+  padding-left: 16px;
+  background-color: #fff;
+  line-height: 25px;
+  color: #424242;
+  font-size: 12px;
+}
+.topbar .shortcut-links .community .community-con .option a:hover,
+.topbar .shortcut-links .store .community-con .option a:hover,
+.topbar .shortcut-links .hotel .community-con .option a:hover,
+.topbar .shortcut-links .community .store-con .option a:hover,
+.topbar .shortcut-links .store .store-con .option a:hover,
+.topbar .shortcut-links .hotel .store-con .option a:hover,
+.topbar .shortcut-links .community .hotel-con .option a:hover,
+.topbar .shortcut-links .store .hotel-con .option a:hover,
+.topbar .shortcut-links .hotel .hotel-con .option a:hover {
+  background-color: #dcfaf4;
+}
+.topbar .shortcut-links .community .hotel-con,
+.topbar .shortcut-links .store .hotel-con,
+.topbar .shortcut-links .hotel .hotel-con {
+  left: -20px;
+}
+.topbar .login a {
+  margin: 0 8px;
+}

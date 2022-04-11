@@ -1,0 +1,24 @@
+@import "../../../../assets/styles/common";
+.gt {
+  .hd {
+    position: relative;
+    @include hd;
+    .tab-hd {
+      @include tab-hd;
+    }
+  }
+  .bd {
+    .tab-list {
+      @include tab-list;
+      .big-grid {
+          @include big-grid(25px 30px 30px 25px)
+        }
+      .more {
+        @include more(linear-gradient(#41d8e9, #3685ea));
+      }
+    }
+  }
+}
+.gt .loading {
+  @include loading(150px);
+}

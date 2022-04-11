@@ -1,0 +1,16 @@
+<div class="hd">
+    <h2>当地玩乐 <span>像当地人一样，体验本土的吃喝玩乐</span></h2>
+    <ul class="tab-hd">
+        <li class="active">国内</li>
+        <li>日本</li>
+        <li>瑞士</li>
+        <li>新西兰</li>
+        <li>澳大利亚</li>
+        <li>柬埔寨</li>
+        <li>泰国</li>
+    </ul>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art' 
+    , {inline:false, text:'^_^正在拼命为您加载......'}) %>
+</div>

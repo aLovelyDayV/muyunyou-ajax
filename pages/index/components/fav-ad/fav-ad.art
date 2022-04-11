@@ -1,0 +1,4 @@
+<ul>
+    <% include('../../../../components/loading/loading.art'
+    , {inline:false, text:'^_^正在拼命为您加载......'}) %>
+</ul>

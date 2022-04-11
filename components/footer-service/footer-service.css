@@ -1,0 +1,68 @@
+.footer-service {
+  height: 200px;
+  margin-top: 100px;
+  background-color: #fff;
+  overflow: hidden;
+  font-size: 14px;
+}
+.footer-service .footer-nav {
+  height: 70px;
+  padding: 25px 0;
+}
+.footer-service .footer-nav li {
+  float: left;
+}
+.footer-service .footer-nav li:nth-child(even) {
+  width: 1px;
+  height: 18px;
+  margin: 3px 26px;
+  background-color: #333;
+}
+.footer-service .footer-nav li a {
+  color: #2a2a2a;
+  font-size: 18px;
+}
+.footer-service .footer-nav li a:hover {
+  color: #20bd9a;
+}
+.footer-service .footer-help {
+  height: 124px;
+  padding: 20px 0 40px;
+}
+.footer-service .footer-help li {
+  float: left;
+  width: 355px;
+  height: 72px;
+  margin-left: 42px;
+  cursor: pointer;
+}
+.footer-service .footer-help li .picbox {
+  float: left;
+  width: 66px;
+  height: 63px;
+  margin-top: 5px;
+  background: url(images/icons.png) no-repeat;
+}
+.footer-service .footer-help li:first-child {
+  margin-left: 0;
+}
+.footer-service .footer-help li:first-child .picbox {
+   background-position: -148px -29px;
+}
+.footer-service .footer-help li:nth-child(2) .picbox {
+ background-position: -148px -101px;
+}
+.footer-service .footer-help li:last-child .picbox {
+  background-position: -148px -177px;
+}
+.footer-service .footer-help li .content {
+  width: 280px;
+  float: right;
+}
+.footer-service .footer-help li .content h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.footer-service .footer-help li .content p {
+  font-size: 14px;
+}

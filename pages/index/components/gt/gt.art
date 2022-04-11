@@ -1,0 +1,11 @@
+<div class="hd">
+    <h2>跟团/半自助游<span>旅游需要好的选择，踏实省心</span></h2>
+    <ul class="tab-hd">
+        <li class="active">半自助游</li>
+        <li>城市CityWalk</li>
+    </ul>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art' ,
+     {inline:false, text:'^_^正在拼命为您加载......'}) %>
+</div>

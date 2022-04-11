@@ -1,0 +1,71 @@
+@import "../../../../assets/styles/common";
+.jjzyx {
+  .hd {
+    position: relative;
+    @include hd;
+    .tab-hd {
+      @include tab-hd;
+    }
+  }
+  .bd {
+    .tab-list {
+      display: none;
+      li {
+        @include grid;
+        &:hover {
+          @include grid-hover;
+        }
+        a {
+          @include grid-a;
+        }
+        .tag {
+          position: absolute;
+          left: 0;
+          top: 135px;
+          width: 70px;
+          height: 30px;
+          background-color: rgba(0, 0, 0, 0.4);
+          line-height: 30px;
+          font-size: 18px;
+          font-weight: 200;
+          color: #fff;
+          text-align: center;
+        }
+        &:nth-child(4) {
+          margin-left: 0;
+        }
+      }
+      .big {
+        margin-left: 0;
+        a {
+            width: 560px;
+          .big-pic {
+            @include big-pic(560px);
+          }
+        }
+        .cover {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 90px;
+          background-color: rgba(0, 0, 0, 0.4);
+          .title {
+            padding-left: 30px;
+            padding-right: 130px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 200;
+            color: #fff;
+          }
+        }
+      }
+      .more {
+        @include more(linear-gradient(#34e3bc, #15af7a));
+      }
+    }
+  }
+}
+.jjzyx .loading {
+  @include loading(150px);
+}

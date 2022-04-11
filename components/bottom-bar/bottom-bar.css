@@ -1,0 +1,42 @@
+.bottom-bar {
+  font-size: 14px;
+  height: 225px;
+  background-color: #1c1f21;
+  padding-top: 40px;
+}
+.bottom-bar .slogan {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.bottom-bar .slogan h1 {
+  float: left;
+  margin-right: 15px;
+  font-size: 46px;
+  font-weight: 400;
+}
+.bottom-bar .slogan h1 a {
+  color: #fff;
+}
+.bottom-bar .slogan .text {
+  float: left;
+  margin-top: 10px;
+}
+.bottom-bar .slogan .text p {
+  margin-top: 5px;
+  color: #fff;
+}
+.bottom-bar .information {
+  color: #fff;
+}
+.bottom-bar .information ul li {
+  float: left;
+}
+.bottom-bar .information ul li:nth-child(even) {
+  width: 1px;
+  height: 14px;
+  background-color: #fff;
+  margin: 3px 10px;
+}
+.bottom-bar .information p {
+  margin-top: 5px;
+}

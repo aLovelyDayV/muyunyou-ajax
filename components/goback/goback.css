@@ -1,0 +1,11 @@
+.goback {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  width: 60px;
+  height: 60px;
+}
+.goback img {
+  width: 60px;
+}

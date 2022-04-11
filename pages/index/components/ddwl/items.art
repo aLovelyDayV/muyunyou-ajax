@@ -1,0 +1,356 @@
+<ul class="tab-list clearfix" style="display: block;">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="{{one.url}}" alt=""></div></a>    
+        <div class="cover">
+            <p>{{one.title}}</p>
+            <p>{{one.type}}<span><i>{{one.price}}</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="{{items[0].url}}" alt="">
+            <p class="text">{{items[0].title}}</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="{{items[1].url}}" alt="">
+            <p class="text">{{items[1].title}}</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="{{items[3].url}}" alt="">
+            <p class="text">{{items[3].title}}</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>{{more.title}}</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="{{items[2].url}}" alt="">
+            <p class="text">{{items[2].title}}</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="{{items[4].url}}" alt="">
+            <p class="text">{{items[4].title}}</p>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/box3-1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p>[亲子佳选]泰国清迈夜间动物园/Night Safari（可选接送；导游；长颈鹿餐厅）</p>
+            <p>城市玩乐<span><i>199</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-3.png" alt="">
+            <p class="text">[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-2.png" alt="">
+            <p class="text">[可接急单] 泰国普吉岛西蒙Simon人妖秀门票VIP专座近距离与人妖互动合影…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-4.png" alt="">
+            <p class="text">[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>当地玩乐产品产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-5.png" alt="">
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-6.png" alt="">
+            <p class="text">享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布</p>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/box3-1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p>[亲子佳选]泰国清迈夜间动物园/Night Safari（可选接送；导游；长颈鹿餐厅）</p>
+            <p>城市玩乐<span><i>199</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-4.png" alt="">
+            <p class="text">[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-3.png" alt="">
+            <p class="text">[可接急单] 泰国普吉岛西蒙Simon人妖秀门票VIP专座近距离与人妖互动合影…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-2.png" alt="">
+            <p class="text">[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>当地玩乐产品产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-5.png" alt="">
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-6.png" alt="">
+            <p class="text">享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布</p>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/box3-1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p>[亲子佳选]泰国清迈夜间动物园/Night Safari（可选接送；导游；长颈鹿餐厅）</p>
+            <p>城市玩乐<span><i>199</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-3.png" alt="">
+            <p class="text">[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-4.png" alt="">
+            <p class="text">[可接急单] 泰国普吉岛西蒙Simon人妖秀门票VIP专座近距离与人妖互动合影…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-2.png" alt="">
+            <p class="text">[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>当地玩乐产品产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-5.png" alt="">
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-6.png" alt="">
+            <p class="text">享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布</p>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/box3-1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p>[亲子佳选]泰国清迈夜间动物园/Night Safari（可选接送；导游；长颈鹿餐厅）</p>
+            <p>城市玩乐<span><i>199</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-3.png" alt="">
+            <p class="text">[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-5.png" alt="">
+            <p class="text">[可接急单] 泰国普吉岛西蒙Simon人妖秀门票VIP专座近距离与人妖互动合影…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-4.png" alt="">
+            <p class="text">[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>当地玩乐产品产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-2.png" alt="">
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-6.png" alt="">
+            <p class="text">享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布</p>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/box3-1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p>[亲子佳选]泰国清迈夜间动物园/Night Safari（可选接送；导游；长颈鹿餐厅）</p>
+            <p>城市玩乐<span><i>199</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-2.png" alt="">
+            <p class="text">[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-3.png" alt="">
+            <p class="text">[可接急单] 泰国普吉岛西蒙Simon人妖秀门票VIP专座近距离与人妖互动合影…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-4.png" alt="">
+            <p class="text">[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>当地玩乐产品产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-5.png" alt="">
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-6.png" alt="">
+            <p class="text">享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布</p>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/box3-1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p>[亲子佳选]泰国清迈夜间动物园/Night Safari（可选接送；导游；长颈鹿餐厅）</p>
+            <p>城市玩乐<span><i>199</i>元起</span></p>
+        </div>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-6.png" alt="">
+            <p class="text">[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-3.png" alt="">
+            <p class="text">[可接急单] 泰国普吉岛西蒙Simon人妖秀门票VIP专座近距离与人妖互动合影…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-4.png" alt="">
+            <p class="text">[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…</p>
+        </a>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>当地玩乐产品产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">WIFI/电话卡 | 交通票券 | 景点门票 | 特色体验</div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-5.png" alt="">
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="upload/box3-2.png" alt="">
+            <p class="text">享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布</p>
+        </a>
+    </li>
+</ul>

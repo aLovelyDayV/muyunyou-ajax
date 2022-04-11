@@ -1,0 +1,15 @@
+.fav-ad {
+  height: 175px;
+  padding-top: 30px;
+  background-color: #fff;
+}
+.fav-ad li {
+  float: left;
+  margin-left: 30px;
+}
+.fav-ad li img {
+  width: 264px;
+}
+.fav-ad li:first-child {
+  margin-left: 0;
+}

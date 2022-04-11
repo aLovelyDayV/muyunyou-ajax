@@ -1,0 +1,17 @@
+<h1><a href="index.html" title="暮云游商城">暮云游商城</a></h1>
+<div class="search-frame">
+    <input type="text" placeholder="热门出发地">
+    <button></button>
+    <div class="hot-search">
+        <a href="#">热门出发地</a>
+        <a href="#">澳门</a>
+        <a href="#">台北</a>
+        <a href="#">苏梅岛</a>
+        <a href="#">芭堤雅</a>
+        <a href="#">新加坡</a>
+        <a href="#">吉隆坡</a>
+        <a href="#">葡萄牙</a>
+        <a href="#">奥地利</a>
+        <a href="#">唐顿庄园</a>
+    </div>
+</div>

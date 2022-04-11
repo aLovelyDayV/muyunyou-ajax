@@ -1,0 +1,96 @@
+<div class="menu-content" data-n="hot">
+    <div class="menu-inn">
+        {{if type=="hot"}}
+        <dl>
+            {{each items}}
+            <dt>{{ $value.title }}</dt>
+            <dd>
+                {{each $value.cities}}
+                <a href={{$value.link}}>{{ $value.text }}</a>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+        {{/if}}
+    </div>
+</div>
+<div class="menu-content" data-n="hk">
+    <div class="menu-inn">
+        {{if type=="hk"}}
+        <dl>
+            {{each items}}
+            <dt>{{ $value.title }}</dt>
+            <dd>
+                {{each $value.cities}}
+                <a href={{$value.link}}>{{ $value.text }}</a>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+        {{/if}}
+    </div>
+</div>
+<div class="menu-content" data-n="japan">
+    <div class="menu-inn">
+        {{if type=="japan"}}
+        <dl>
+            {{each items}}
+            <dt>{{ $value.title }}</dt>
+            <dd>
+                {{each $value.cities}}
+                <a href={{$value.link}}>{{ $value.text }}</a>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+        {{/if}}
+    </div>
+</div>
+<div class="menu-content" data-n="asia">
+    <div class="menu-inn">
+        {{if type=="asia"}}
+        <dl>
+            {{each items}}
+            <dt>{{ $value.title }}</dt>
+            <dd>
+                {{each $value.cities}}
+                <a href={{$value.link}}>{{ $value.text }}</a>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+        {{/if}}
+    </div>
+</div>
+<div class="menu-content" data-n="eu">
+    <div class="menu-inn">
+        {{if type=="eu"}}
+        <dl>
+            {{each items}}
+            <dt>{{ $value.title }}</dt>
+            <dd>
+                {{each $value.cities}}
+                <a href={{$value.link}}>{{ $value.text }}</a>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+        {{/if}}
+    </div>
+</div>
+<div class="menu-content" data-n="au">
+    <div class="menu-inn">
+        {{if type=="au"}}
+        <dl>
+            {{each items}}
+            <dt>{{ $value.title }}</dt>
+            <dd>
+                {{each $value.cities}}
+                <a href={{$value.link}}>{{ $value.text }}</a>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,12 @@
+.arrow-down::after {
+  font-family: "iconfont";
+  content: "\e733";
+}
+.banner {
+  position: relative;
+  height: 420px;
+}
+.banner .center-wrap {
+  position: relative;
+  height: 420px;
+}

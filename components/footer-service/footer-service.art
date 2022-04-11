@@ -1,0 +1,44 @@
+<ul class="footer-nav">
+    <li><a href="#">机酒自由行</a></li>
+    <li></li>
+    <li><a href="#">当地玩乐</a></li>
+    <li></li>
+    <li><a href="#">优惠机票</a></li>
+    <li></li>
+    <li><a href="#">签证</a></li>
+    <li></li>
+    <li><a href="#">马尔代夫</a></li>
+    <li></li>
+    <li><a href="#">邮轮</a></li>
+    <li></li>
+    <li><a href="#">租车自驾</a></li>
+    <li></li>
+    <li><a href="#">欧洲铁路</a></li>
+    <li></li>
+    <li><a href="#">新鲜甩尾</a></li>
+    <li></li>
+    <li><a href="#">深度旅行</a></li>
+</ul>
+<ul class="footer-help">
+    <li>
+        <div class="picbox"></div>
+        <div class="content">
+            <h4>贴心服务</h4>
+            <p>我们收集慕云游者的真实诉求，找寻特色旅行目的地，让慕云游者放心出行</p>
+        </div>
+    </li>
+    <li>
+        <div class="picbox"></div>
+        <div class="content">
+            <h4>层层筛选</h4>
+            <p>对旅游产品供应商严格筛选，资质层层把关为慕云游者挑选符合需求的旅行产品</p>
+        </div>
+    </li>
+    <li>
+        <div class="picbox"></div>
+        <div class="content">
+            <h4>安心陪护</h4>
+            <p>对慕云游者的购买进行跟踪服务以及质量监控，生效投诉先行赔付，出现问题及时解决</p>
+        </div>
+    </li>
+</ul>

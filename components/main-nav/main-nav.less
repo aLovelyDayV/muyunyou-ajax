@@ -1,0 +1,60 @@
+.main-nav {
+  height: 40px;
+  background-color: #20bd9a;
+  line-height: 40px;
+  font-size: 14px;
+  .main-nav-list {
+    li {
+      float: left;
+      margin: 0 8px;
+      a:hover {
+        color: green;
+      }
+    }
+    .free,
+    .group,
+    .play,
+    .deep {
+      position: relative;
+      .free-con,
+      .group-con,
+      .play-con,
+      .deep-con {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: -15px;
+        width: 100px;
+        border-radius: 8px;
+        z-index: 1;
+        .trangle {
+          position: absolute;
+          top: -18px;
+          left: 40px;
+          width: 0;
+          height: 0;
+          border: 10px solid transparent;
+          border-bottom: 10px solid #fff;
+        }
+        .option {
+          a {
+            display: block;
+            width: 100px;
+            height: 25px;
+            padding-left: 16px;
+            background-color: #fff;
+            line-height: 25px;
+            color: #424242;
+            font-size: 12px;
+            &:hover {
+              background-color: #dcfaf4;
+            }
+          }
+        }
+      }
+      .group-con {
+        left: -28px;
+      }
+    }
+  }
+}

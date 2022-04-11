@@ -1,0 +1,51 @@
+<nav class="shortcut-links fl">
+    <ul>
+        <li><a href="#">目的地</a></li>
+        <li><a href="#">锦囊</a></li>
+        <li class="community">
+            <a href="javascript:;" class="arrow-down">社区</a>
+            <div class="community-con">
+                <div class="trangle"></div>
+                <div class="option">
+                    <a href="#">社区</a>
+                    <a href="#">社区</a>
+                    <a href="#">社区</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">行程助手</a></li>
+        <li class="store">
+            <a href="javascript:;" class="arrow-down">商城</a>
+            <div class="store-con">
+                <div class="trangle"></div>
+                <div class="option">
+                    <a href="#">商城</a>
+                    <a href="#">商城</a>
+                    <a href="#">商城</a>
+                    <a href="#">商城</a>
+                    <a href="#">商城</a>
+                </div>
+            </div>
+        </li>
+        <li class="hotel">
+            <a href="javascript:;" class="arrow-down">酒店·民宿</a>
+            <div class="hotel-con">
+                <div class="trangle"></div>
+                <div class="option">
+                    <a href="#">酒店·民宿</a>
+                    <a href="#">酒店·民宿</a>
+                    <a href="#">酒店·民宿</a>
+                    <a href="#">酒店·民宿</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">特价酒店</a></li>
+    </ul>
+</nav>
+<div class="login fr">
+    <a href="#" class="iconfont">&#xe882;</a>
+    <a href="#" class="iconfont">&#xe63c;</a>
+    <a href="#" class="iconfont">&#xf0106;</a>
+    <a href="#">登录</a>
+    <a href="#">注册</a>
+</div>

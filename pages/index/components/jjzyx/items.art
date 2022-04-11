@@ -1,0 +1,335 @@
+<ul class="tab-list clearfix" style="display: block;">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic">
+                <img src="{{one.url}}" alt="">
+            </div>
+        </a>
+        <div class="cover">
+            <p class="title">{{one.title}}</p>
+        </div>
+        <div class="tag">{{one.type}}</div>
+    </li>
+    {{each items}}
+    <li>
+        <a href="#">
+            <div class="pic">
+                <img src="{{$value.url}}" alt="">
+            </div>
+            <p class="text">{{$value.title}}</p>
+        </a>
+        <div class="tag">{{$value.type}}</div>
+    </li>
+    {{/each}}
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>{{more.title}}</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/jjzyx1.png" alt=""></div>
+            </a>
+        <div class="cover">
+            <p class="title">[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返
+                含税机票【甩尾/多团期】</p>
+        </div>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx2.png" alt=""></div>
+            
+            <p class="text">北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx3.png" alt=""></div>
+            <p class="text">北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天…</p>
+        </a>
+        <div class="tag">跟团游</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx4.png" alt=""></div>
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx5.png" alt=""></div>
+            <p class="text">杭州/上海/宁波/义乌直飞越南芽庄/岘港4-6天往返含税机票（20KG…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/jjzyx1.png" alt=""></div>
+            </a>
+        <div class="cover">
+            <p class="title">[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返
+                含税机票【甩尾/多团期】</p>
+        </div>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx3.png" alt=""></div>
+            <p class="text">北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx2.png" alt=""></div>
+            <p class="text">北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天…</p>
+        </a>
+        <div class="tag">跟团游</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx4.png" alt=""></div>
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/jjzyx1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p class="title">[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返
+                含税机票【甩尾/多团期】</p>
+        </div>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx6.png" alt=""></div>
+            <p class="text">北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx2.png" alt=""></div>
+            <p class="text">北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天…</p>
+        </a>
+        <div class="tag">跟团游</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx5.png" alt=""></div>
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx4.png" alt=""></div>
+            <p class="text">杭州/上海/宁波/义乌直飞越南芽庄/岘港4-6天往返含税机票（20KG…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx3.png" alt=""></div>
+            <p class="text">[赠自由行礼包] 上海/杭州/南京/合肥/宁波/徐州直飞日本东京/大阪…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+    <a href="#">
+        <div class="big-pic"><img src="upload/jjzyx1.png" alt=""></div>
+    </a>
+        <div class="cover">
+            <p class="title">[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返
+                含税机票【甩尾/多团期】</p>
+        </div>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+        <div class="pic"><img src="upload/jjzyx2.png" alt=""></div>
+            <p class="text">北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx3.png" alt=""></div>
+            <p class="text">北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天…</p>
+        </a>
+        <div class="tag">跟团游</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx4.png" alt=""></div>
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx5.png" alt=""></div>
+            <p class="text">杭州/上海/宁波/义乌直飞越南芽庄/岘港4-6天往返含税机票（20KG…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/jjzyx1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p class="title">[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返
+                含税机票【甩尾/多团期】</p>
+        </div>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx6.png" alt=""></div>
+            <p class="text">北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+        <div class="pic"><img src="upload/jjzyx5.png" alt=""></div>
+            <p class="text">北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天…</p>
+        </a>
+        <div class="tag">跟团游</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx4.png" alt=""></div>
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>
+<ul class="tab-list clearfix">
+    <li class="big">
+        <a href="#">
+            <div class="big-pic"><img src="upload/jjzyx1.png" alt=""></div>
+        </a>
+        <div class="cover">
+            <p class="title">[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返
+                含税机票【甩尾/多团期】</p>
+        </div>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx2.png" alt=""></div>
+            <p class="text">北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx4.png" alt=""></div>
+            <p class="text">北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天…</p>
+        </a>
+        <div class="tag">跟团游</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx3.png" alt=""></div>
+            <p class="text">[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx5.png" alt=""></div>
+            <p class="text">杭州/上海/宁波/义乌直飞越南芽庄/岘港4-6天往返含税机票（20KG…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li>
+        <a href="#">
+            <div class="pic"><img src="upload/jjzyx2.png" alt=""></div>
+            <p class="text">[赠自由行礼包] 上海/杭州/南京/合肥/宁波/徐州直飞日本东京/大阪…</p>
+        </a>
+        <div class="tag">机票</div>
+    </li>
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">机票 | 酒店 | 机+酒 | 邮轮</div>
+        </a>
+    </li>
+</ul>

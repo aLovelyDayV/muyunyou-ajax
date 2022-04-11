@@ -1,0 +1,16 @@
+<div class="hd">
+    <h2>机酒自由行 <span>挑选全球机票、酒店、游轮等旅游产品</span></h2>
+    <ul class="tab-hd">
+        <li class="active">近期好货</li>
+        <li>新品汇聚</li>
+        <li>定制游</li>
+        <li>国内推荐</li>
+        <li>优惠机票</li>
+        <li>热门海岛</li>
+        <li>热卖签证</li>
+    </ul>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art' 
+    , {inline:false, text:'^_^正在拼命为您加载......'}) %>
+</div>
