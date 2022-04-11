@@ -1,0 +1,62 @@
+@import "../../../../assets/styles/common";
+.tsddty {
+  .hd {
+    height: 120px;
+    line-height: 120px;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .bd {
+    li {
+      @include grid;
+      &:hover {
+        transform: translate3d(0, -5px, 3px);
+        box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.3);
+        img {
+          transform: scale(1.1);
+        }
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        position: relative;
+        display: block;
+        width: 264px;
+        height: 290px;
+        background-color: #fff;
+        color: #424242;
+        .pic {
+          width: 264px;
+          height: 184px;
+          overflow: hidden;
+          img {
+            width: 264px;
+            transition: all 0.4s;
+          }
+        }
+        h4 {
+          font-size: 15px;
+          padding: 15px 20px;
+        }
+        p {
+          position: absolute;
+          left: 20px;
+          bottom: 15px;
+          font-size: 12px;
+          i {
+            color: #fa6400;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.tsddty .loading {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

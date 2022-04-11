@@ -1,0 +1,31 @@
+<ul class="tab-list clearfix">
+    <li class="big-grid">
+        <a href="#">
+            <div class="big-pic">
+                <img src="{{one.url}}" alt="">
+            </div>
+        </a>
+        <div class="big-tag">{{one.tag}}{{one['extra-tag']}}</div>
+        <div class="title">{{one.title}}</div>
+    </li>
+    {{each items}}
+    <li>
+        <a href="#">
+            <div class="pic">
+                <img src="{{$value.url}}" alt="">
+            </div>
+            <p class="text">{{$value.title}}</p>
+        </a>
+    </li>
+    {{/each}}
+    <li class="more">
+        <a href="#">
+            <div class="title">
+                <p>查看更多</p>
+                <p>{{more.title}}</p>
+            </div>
+            <div class="arrow-right iconfont">&#xe619;</div>
+            <div class="content">日游&nbsp;|&nbsp;周末&nbsp;|&nbsp;亲子&nbsp;|&nbsp;长线</div>
+        </a>
+    </li>
+</ul>

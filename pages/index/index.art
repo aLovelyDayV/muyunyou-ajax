@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>暮云游</title>
+</head>
+
+<body>
+    <!-- topbar -->
+    <div class="topbar">
+        <div class="center-wrap">
+            {{include '../../components/topbar/topbar.art'}}
+        </div>
+    </div>
+    <!-- main-nav -->
+    <div class="main-nav">
+        <div class="center-wrap">
+            {{include '../../components/main-nav/main-nav.art'}}
+        </div>
+    </div>
+    <!-- header-con -->
+    <div class="header-con">
+        <div class="center-wrap">
+            {{include '../../components/header-con/header-con.art'}}
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <div class="center-wrap">
+            {{include './components/menu/menu.art'}}
+        </div>
+        {{include './components/slider/slider.art'}}
+    </div>
+    <!-- fav-ad -->
+    <div class="fav-ad">
+        <div class="center-wrap">
+            {{include './components/fav-ad/fav-ad.art'}}
+        </div>
+    </div>
+    <!-- goback -->
+    {{include '../../components/goback/goback.art'}}
+    <!-- xxsw -->
+    <div class="xxsw">
+        <div class="center-wrap">
+            {{include './components/xxsw/xxsw.art'}}
+        </div>
+    </div>
+    <!-- jjzyx -->
+    <div class="jjzyx">
+        <div class="center-wrap">
+            {{include './components/jjzyx/jjzyx.art'}}
+        </div>
+    </div>
+    <!-- ddwl -->
+    <div class="ddwl">
+        <div class="center-wrap">
+            {{include './components/ddwl/ddwl.art'}}
+        </div>
+    </div>
+    <!-- tsddty -->
+    <div class="tsddty">
+        <div class="center-wrap">
+            {{include './components/tsddty/tsddty.art'}}
+        </div>
+    </div>
+    <!-- zsj -->
+    <div class="zsj">
+        <div class="center-wrap">
+            {{include './components/zsj/zsj.art'}}
+        </div>
+    </div>
+    <!-- gt -->
+    <div class="gt w">
+        <div class="center-wrap">
+            {{include './components/gt/gt.art'}}
+        </div>
+    </div>
+    <!-- footer-service -->
+    <div class="footer-service">
+        <div class="center-wrap">
+            {{include '../../components/footer-service/footer-service.art'}}
+        </div>
+    </div>
+    <!-- bottom-bar -->
+    <div class="bottom-bar">
+            <div class="center-wrap">
+            {{include '../../components/bottom-bar/bottom-bar.art'}}
+            </div>
+        </div>
+</body>
+
+</html>

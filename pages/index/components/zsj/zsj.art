@@ -1,0 +1,10 @@
+<div class="hd">
+    <h2>最世界深度·深度旅行<span>摆脱千篇一律的旅行，探索属于自己的世界</span></h2>
+    <ul class="tab-hd">
+        <li class="active">城市CityWalk</li>
+    </ul>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art' ,
+     {inline:false, text:'^_^正在拼命为您加载......'}) %>
+</div>

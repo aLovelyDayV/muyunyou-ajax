@@ -1,0 +1,35 @@
+@import "../../../../assets/styles/common";
+.zsj {
+  .hd {
+    position: relative;
+    @include hd;
+    .tab-hd {
+      @include tab-hd;
+    }
+  }
+  .bd {
+    .tab-list {
+      li {
+        @include grid;
+        &:hover {
+          @include grid-hover;
+        }
+        a {
+          @include grid-a;
+        }
+        &:nth-child(4) {
+          margin-left: 0;
+        }
+      }
+      .big-grid {
+        @include big-grid(25px 0 0 0);
+      }
+      .more {
+        @include more(linear-gradient(#bd5ee8, #832abb));
+      }
+    }
+  }
+}
+.zsj .loading {
+  @include loading(150px);
+}

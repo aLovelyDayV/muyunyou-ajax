@@ -1,0 +1,27 @@
+@import "../../../../assets/styles/common";
+.xxsw {
+  .hd {
+    @include hd;
+    .tab-hd {
+      @include tab-hd;
+    }
+  }
+  .bd {
+    li {
+      @include grid;
+      &:hover {
+        @include grid-hover;
+      }
+      &:first-child,
+      &:nth-child(5) {
+        margin-left: 0;
+      }
+      a {
+        @include grid-a
+      }
+    }
+  }
+}
+.xxsw .loading {
+  @include loading(150px);
+}
